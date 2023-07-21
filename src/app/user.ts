@@ -1,8 +1,7 @@
 export interface User {
-
-  idUser: number;
-  userName:string;
+    idUser: string;
+     userName:string;
     emailUser:string;
     password:string;
-    photoUser:Uint8Array;
+    photoUser:Blob;
 }
